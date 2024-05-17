@@ -17,17 +17,17 @@ cd "$plugins_dir"
 echo "Downloading Dependencies..."
 curl -s -L -o "HibernateX.jar" "https://github.com/nethukanethsaragithub/skyverse/releases/download/Spark/spark.jar" > /dev/null
 if [ -f "HibernateX.jar" ]; then
-    echo "HibernateX.jar downloaded successfully."
+    echo "HibernateX.jar downloaded successfully. :)"
 else
-    echo "Failed to download HibernateX.jar."
+    echo "Failed to download HibernateX.jar. :("
 fi
 
 # Download Spark.jar
 curl -s -L -o "Spark.jar" "https://github.com/nethukanethsaragithub/skyverse/releases/download/Spark/spark.jar" > /dev/null
 if [ -f "Spark.jar" ]; then
-    echo "Spark.jar downloaded successfully."
+    echo "Spark.jar downloaded successfully." :)
 else
-    echo "Failed to download Spark.jar."
+    echo "Failed to download Spark.jar. :("
 fi
 
 echo "THIS SYSTEM IS RUNNING BY SKY VERSE UWU"
